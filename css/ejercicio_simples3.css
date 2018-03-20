@@ -1,0 +1,59 @@
+body{
+  background-image: url(../img/fondo.jpg);
+}
+h1{
+
+}
+
+.main-container{
+
+width: 100%;
+
+
+}
+
+.img-container{
+
+width: 500px;
+height: 300px;
+
+margin: 0 auto;
+
+
+}
+img{
+  position: absolute;
+  width: 500px;
+
+
+}
+.contenido{
+background: white;
+width: 500px;
+margin: 0 auto;
+height: 325px;
+
+}
+a{
+  text-decoration: none;
+    color: white;
+}
+#bottom-contenido:hover{
+  background:orange;
+}
+
+h1{
+  text-align: center;
+  border-bottom: dotted 2px #ccc;
+}
+#description{
+color: #666;
+
+font-size: 1.25em;
+}
+
+#bottom-contenido{
+margin: 0 auto;
+background:red;
+width: 20%;
+}

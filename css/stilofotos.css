@@ -1,0 +1,48 @@
+body{
+  background:#222;
+  font-family: monospace;
+  margin: 0px;
+}
+
+.titulo{
+  text-align: center;
+  background:gray;
+}
+h1{
+margin-top: 0;
+}
+
+.contendero_galeria{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.imanges{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  /*Object justifica el centrado de la imagen */
+  object-fit: fill;
+  /*filter con clases brightness sirve para aumentar de brillo o diminuir*/
+  filter: brightness(85%);
+  /*Da efecto a la imagen como un acercamiento y alejamiento */
+  animation: ejemplo 1.5s infinite alternate;
+}
+/*Sirve para mandarle una orden que se dara un efecto al parametro ejemplo */
+@keyframes ejemplo {
+  to{
+    transform: scale(1);
+  }
+  from{
+    transform: scale(1.05);
+  }
+}
+
+.imanges:hover{
+  filter: brightness(100%);
+}

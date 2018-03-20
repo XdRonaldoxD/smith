@@ -1,0 +1,39 @@
+body{
+  background: #C6D9EE;
+
+}
+h1{
+  text-align: right;
+  color: black;
+  font-size:40px;
+}
+
+.rojo{
+  color: red;
+}
+
+.contenedor{
+  width: 1024px;
+  margin: auto;
+}
+
+.seleciones{
+  color: orange;
+  font-weight: bolder;
+}
+.fecha{
+  color:blue;
+  /*sirve para el subrayado de arriba */
+  border-top: 1px solid blue;
+  /*Sirve para el subrayado de abajao*/
+  border-bottom: 1px solid blue;
+}
+
+.blanco_verde{
+  background: white;
+  color:green;
+}
+.grand_celeste{
+  font-size:2em;
+  color:red;
+}

@@ -1,0 +1,73 @@
+header, nav{
+  background: #20B2AA;
+  border-radius:12px;
+  height: 75px;
+  margin: auto;
+  width: 100%;
+}
+nav{
+  height: 65px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+
+article{
+  background: gray;
+  border-radius: 10px;
+  /*el display es que se meustra en linea y el block que se muestre en bloque  */
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  min-height: 120px;
+  line-height: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+footer{
+  background:#20b2aa;
+  border-radius:10px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  height: 65px;
+
+}
+aside, .section,.correccion{
+  background:#20b2aa;
+  border-radius:10px;
+  display: inline-block;
+min-height: 200px;
+min-width: 20.3%;
+  text-align: center;
+  vertical-align: top;
+
+}
+
+.section{
+  min-width: 52%;
+}
+.correccion{
+  min-width: 25%;
+}
+
+#wrapper{
+  background:grey;
+  text-align: center;
+  border-radius: 12px;
+  width:90%;
+  min-height: 300px;
+  line-height:70px;
+  text-align: center;
+
+  /*margin auto alinea el elemento centro en la pantalla */
+  margin: auto;
+
+}

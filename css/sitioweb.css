@@ -1,0 +1,308 @@
+body{
+  font: 15px Arial,Helvetica,sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+
+.titulo{
+  text-align: center;
+}
+
+.contenedor{
+  width:80%;
+  margin:0 auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+.botton1{
+height: 30px;
+background-color: #e8491d;
+border: 0;
+/* es una marga internrios a la mano izquierda de 20px*/
+padding-left: 20px;
+padding-right: 20px;
+color: #fff;
+}
+
+
+/*Emcabezado */
+
+header{
+  background-color: #36110C;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 5px solid #DA431D;
+
+}
+header a{
+  color: #fff;
+  text-decoration: none;
+  /* Pone en mayuscula todos los texto escritos en html en este caso el encabezado */
+  text-transform: uppercase;
+  font-size:15px;
+}
+header li{
+float: left;
+display:inline-block;
+  padding: 0 25px 0 25px;
+
+}
+
+
+header #marca{
+  float: left;
+
+
+}
+header #marca h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+/*Se usa los estilo para el mimso color de ambos texto */
+header .resaltado,header .actual a{
+color: ##FD2004;
+/*La propiedad font-weight es para que sea mas pesado y resalta mas en negrilla */
+font-weight: bold;
+}
+
+header a:hover{
+  color: #ccc;
+  font-weight:bold;
+
+}
+
+#cabecera{
+  min-height: 400px;
+  background-image:url("../img/jpg/sound.jpg") ;
+  background-repeat: no-repeat 0 -400px;
+  color: white;
+  text-align: center;
+}
+
+#cabecera h1{
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+#cabecera p{
+  font-size: 20px;
+}
+
+
+
+/*Formulario Boletin */
+
+#boletin{
+  padding: 15px;
+  color: #fff;
+  background: #6B2819;
+
+}
+
+#boletin h1{
+  float: left;
+
+}
+#boletin form{
+  float: right;
+  margin-top: 20px;
+}
+#boletin input[type="email"]{
+  padding: 4px;
+  height: 20px;
+  width: 240px;
+}
+
+
+/*Stilo para las cajas */
+#cajas{
+  margin-top: 20px;
+
+}
+
+#cajas .caja{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 13px;
+}
+
+#cajas img{
+  width: 90px;
+}
+
+/* stilo para el footer*/
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: #AA5404;
+  text-align: center;
+}
+
+
+
+/* Para la pagina citioweb2_nosotros*/
+aside {
+float: right;
+width: 30%;
+padding:0 0 0 10px;
+}
+
+
+.oscuro{
+  padding: 15px;
+  background-color: #35424a;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom:10px;
+
+}
+
+/*Estilo para las columnas */
+  .main-col{
+  float:left ;
+  width: 65%;
+}
+
+
+/* Servicio */
+ul#servicio li{
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  background-color: #B6AFA9;
+}
+
+
+/* Formulario*/
+
+input,textarea{
+  width: 100%;
+  height: 35px;
+  border: 1px solid gray;
+  margin-bottom: 5px;
+}
+
+input[type="submit"]{
+  background: #7B6E63;
+  color:#fff;
+
+
+}
+
+
+
+.works-section img{
+  width: 400px;
+  height: 320px;
+}
+
+
+/*Quitando el color del meno-dropdown y su defecto */
+.meno-dropdown{
+  margin: 0;
+  padding: 0;
+  background: #7aa228;
+
+}
+
+.meno-dropdown small{
+  color:#8ce5ad;
+  font-size: 13px;
+}
+
+/*Estilo para jumbotrom */
+.jumbotron{
+  background: #0066ff;
+  color: white;
+  width: 100%;
+  margin: 0;
+
+}
+.jumbotron .titulo{
+  font-size: 70px;
+  display: flex;
+}
+.jumbotron .titulo2{
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+}
+
+/* Estilo al contenido-parrafo*/
+.contenido-parrafo{
+  width: 50%;
+  height: 20em;
+  color: #727272;
+  margin-top: 50px;
+  top: 50px;
+}
+.contenido-parrafo p{
+  text-align: left;
+  padding: 10px;
+}
+.contenido-parrafo img{
+  display: inline-block;
+  position: absolute;
+  right:0;
+  top: 15%;
+  left: 70%;
+}
+
+
+/* media query */
+@media(max-width:768px){
+  header #marca,
+  header nav,
+  header nav li,
+  #boletin h1,
+  #boletin form,
+  #caja .caja,
+  article#main-col,
+  aside#lateral{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  header{
+    padding-bottom: 20px;
+  }
+
+  #boletin h1{
+    margin-top: 40px;
+  }
+  #boletin button{
+    display: block;
+    width: 100%;
+
+  }
+
+  #boletin form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  input,textarea{
+    width: 48%;
+  }
+
+}

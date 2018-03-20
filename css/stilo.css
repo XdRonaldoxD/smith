@@ -1,0 +1,38 @@
+body{
+  margin: 0;
+  background: #D3D3D3;
+}
+
+.cabezera{
+background: black;
+margin-top: 0px;
+padding: 10px;
+text-align: right;
+color: white;
+}
+
+.contenido{
+
+  width: 1025px;
+  /*Es para centrar el texto */
+  margin: auto;
+}
+
+h2{
+  text-align: center;
+
+}
+.subtitulo{
+  border-bottom: 4px solid white;
+
+}
+
+.color_texto{
+background: white;
+  color:blue;
+
+}
+.punteado{
+  border-bottom: 4px dotted red;
+
+}
